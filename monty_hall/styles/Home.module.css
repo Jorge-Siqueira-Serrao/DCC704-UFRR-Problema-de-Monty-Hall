@@ -1,0 +1,80 @@
+.container {
+  padding: 0 0rem;
+}
+
+.main {
+  min-height: 100vh;
+  padding: 0rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(70,66,68);
+}
+
+.footer {
+  display: flex;
+  flex: 1;
+  padding: 2rem 0;
+  border-top: 1px solid #eaeaea;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.square {
+  width: 200px;
+  height: 200px;
+}
+
+.titleWhiteSquare {
+  display: block;
+  margin: 10px auto 0 auto;
+  color: rgb(100,100,100);
+  text-align: center;
+}
+
+.num {
+  display: block;
+  margin: 10px auto 0 auto;
+  width: 50%;
+  line-height: 40px;
+  padding-bottom: 20px;
+  text-align: center;
+  font-size: 60px;
+  font-weight: 500;
+}
+
+.buttonPlusAndMinus {
+  display: flex;
+  margin: 10px auto 0 auto;
+  width: 50%;
+  justify-content: center;
+  align-content: center;
+}
+
+.buttonPlusAndMinus button {
+  width: 45px;
+  height: 45px;
+  border: none;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.buttonPlusAndMinus button:last-of-type {
+  margin: 0 0 0 5px;
+}
+
+.greenSquare {
+  background-color: rgb(18,140,113);
+  margin: 0 0 0 5px;
+  border: none;
+  cursor: pointer;
+}
